@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Co
+    mpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <style class="bgimg"></style>
+    <div id="quote" class="QuoteStyle">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="row">
+        <div class = "column left">
+            <h2 id="clock" class="clockStyle">00:00</h2>    
+        </div>  
+        
+        <div class = "column middle">
+            <form id="login-form" class="hidden HelloStyle">
+                <input 
+                    required
+                    maxlength = "15"
+                    type="text" 
+                    placeholder="What is your name?"
+                />
+                <input type="submit" value="Log In"/>
+            </form>
+            <h1 id="greeting" class="hidden HelloStyle"></h1>
+            <div>
+                <form id="todo-form" class="InputTodo">
+                    <input class='input' required type="text" placeholder="Write a To Do and Press"/>
+                </form>
+                <ul id="todo-list" class="todolist"></ul>
+            </div>
+        </div>
+        
+        <div class="column right">
+            <div id = "weather" class="weatherStyle">
+                <span></span>
+                <span></span>
+            </div>
+        </div> 
+    </div>
+   
+    <script src="js/greetings.js"></script>
+    <script src="js/clock_f.js"></script>
+    <!-- <script src="js/memo.js"></script> -->
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
